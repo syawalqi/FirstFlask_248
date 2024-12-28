@@ -3,7 +3,7 @@ from flask import Flask, render_template, request, redirect, url_for
 app = Flask(
     __name__,
     template_folder='view',  # Folder untuk template
-    static_folder='view'     # Folder untuk file statis
+    static_folder='static'     # Folder untuk file statis
 )
 
 # Menyimpan data pengguna sementara (gunakan database untuk aplikasi nyata)
